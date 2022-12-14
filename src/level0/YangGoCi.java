@@ -13,6 +13,7 @@ package level0;
 			서비스로 받은 음료수는 모두 마십니다.	
 			
 */
+
 public class YangGoCi {
 	
 	public int yangGoCi(int n,int k) {
