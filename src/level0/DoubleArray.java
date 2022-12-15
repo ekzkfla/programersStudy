@@ -30,6 +30,7 @@ public class DoubleArray {
 		System.out.println(doubleArray.doubleArray(numbers2));
 		//return {2, 4, 200, -198, 2, 4, 6}
 		
+		//질문... 배열의 숫자들을 출력하고 싶은데 어찌 해야할라나??ㅣ,.,.
 	}
 	
 }
