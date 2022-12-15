@@ -32,5 +32,8 @@ public class ArrayMedian {
 		int[] arrays = {9,-1,0};
 		System.out.println(arrayMedian.arrayMedian(arrays));
 		//return 0
+		
+		
+	
 	}
 }
