@@ -36,6 +36,7 @@ public class DuplicatedNumberCount {
 		int n2 = 1;
 		System.out.println(numberCount.douplicatedNumberCount(arrays, n2));
 		// return 0;
+		
 	}
 	
 	
