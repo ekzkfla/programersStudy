@@ -16,16 +16,40 @@ public class GermMultiplication {
 		}
 		return n;
 	}
+	/******************다른사람 풀이식 ******************************************************/	
+	/*
+	
+	public int solution(int n, int t) {
+		return n *(int)Math.pow(2,t);
+	}
+	
+	*/
 	
 	
 	public static void main(String[]args)throws Exception {
 		GermMultiplication germMultiplication = new GermMultiplication();
 		
+		
 		System.out.println(germMultiplication.germMultiplication(2,10));
 		//세균 2, 10시간으로 인한 증식 수  return 2048
 		System.out.println(germMultiplication.germMultiplication(7,15));
-		//세균 7, 15시간으로 인한 증식 수  return 229376	
+		//세균 7, 15시간으로 인한 증식 수  return 229376
+		
+	/*
+	  
+		System.out.println(germMultiplication.solution(2, 10));
+		새로운 방식의 풀이식 
+		풀이식 해석 
+		Math.pow(n,t);	==>제곱함수이다. 출력은 double형이라 return에 int로 정수 변형하여야한다.
+		
+	*/
 		
 	}
 	
 }
+
+
+
+
+
+
