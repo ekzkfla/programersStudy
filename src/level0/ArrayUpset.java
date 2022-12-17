@@ -23,6 +23,10 @@ public class ArrayUpset {
 		ArrayUpset arrayUpset=new ArrayUpset();
 		int[] num_list = {1,2,3,4,5};
 		System.out.println(arrayUpset.arrayUpset(num_list));
+		int[] num_list2 = {1,1,1,1,1,2};
+		System.out.println(arrayUpset.arrayUpset(num_list2));
+		int[] num_list3 = {1,0,1,1,1,3,5};
+		System.out.println(arrayUpset.arrayUpset(num_list3));
 	}
 	
 	
